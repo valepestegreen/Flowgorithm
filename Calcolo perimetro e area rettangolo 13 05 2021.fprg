@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.9">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s.buzzi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-13 12:43:25 "/>
+        <attribute name="created" value="cy5idXp6aTsgUzI2LTE2OyAyMDIxLTA1LTEzOyAxMjoyNDowMCA7IDIyNjY="/>
+        <attribute name="edited" value="cy5idXp6aTsgUzI2LTE2OyAyMDIxLTA1LTEzOyAxMjo0MzoyNSA7IDIyNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Dati in input i lati di un rettanfolo stampa area e perimetro"/>
+            <declare name="h, b, area, perimetro" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dammi la base del rettangolo&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Dammi l'altezza del rettangolo&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="area" expression="b*h"/>
+            <assign variable="perimetro" expression="2*b+2*h"/>
+            <output expression="&quot;L'area vale: &quot; &amp; area &amp;&quot; Il perimetro vale:&quot; &amp; perimetro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

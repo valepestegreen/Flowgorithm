@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.9">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s.buzzi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-13 01:00:59 "/>
+        <attribute name="created" value="cy5idXp6aTsgUzI2LTE2OyAyMDIxLTA1LTEzOyAxMjo0MzozMyA7IDIyNzM="/>
+        <attribute name="edited" value="cy5idXp6aTsgUzI2LTE2OyAyMDIxLTA1LTEzOyAwMTowMDo1OSA7IDIyNzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Dati i cateti di un triangolo rettangolo stampa a video l'area e il perimetro"/>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="i, area, perimetro" type="Real" array="False" size=""/>
+            <output expression="&quot;Dammi il valere del primo cateto&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Dammi il valore del secondo cateto&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="i" expression="sqrt(a^2+b^2)"/>
+        </body>
+    </function>
+</flowgorithm>
